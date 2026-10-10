@@ -340,6 +340,67 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
     });
     assert(unchanged);
   });
+  await test('Groq chat setup persists only a verified key and isolates providers', async () => {
+    const fixture = await open();
+    const p = fixture.page;
+    const requests = [];
+    let status = 200;
+    await p.route('https://api.groq.com/openai/v1/chat/completions', route => {
+      requests.push({ body: route.request().postDataJSON(), authorization: route.request().headers().authorization });
+      return route.fulfill({ status, contentType: 'application/json', body: JSON.stringify({ choices: [{ message: { content: 'Hello' } }] }) });
+    });
+    try {
+      await p.evaluate(() => { saveAiKey('test-local-key'); showScreen('freechat'); });
+      await p.getByRole('button', { name: 'Настройки ИИ', exact: true }).click();
+      await p.locator('#ai-modal').getByRole('button', { name: 'Groq', exact: true }).click();
+      assert.equal(await p.locator('#ai-key-input').inputValue(), '');
+      assert.equal(await p.locator('#ai-modal-model-select').inputValue(), 'llama-3.3-70b-versatile');
+      assert.equal(await p.locator('#ai-modal-model-select option').count(), 2);
+      await p.setViewportSize({ width: 320, height: 900 });
+      const modalRect = await p.locator('#ai-modal .app-modal-card').boundingBox();
+      const saveRect = await p.locator('#ai-modal-save-btn').boundingBox();
+      assert(saveRect.x >= modalRect.x && saveRect.x + saveRect.width <= modalRect.x + modalRect.width);
+      assert((await p.locator('#ai-endpoint-input').boundingBox()).width > modalRect.width * 0.75);
+      await p.locator('#ai-key-input').fill('test-key-not-valid');
+      status = 401;
+      await p.locator('#ai-modal-save-btn').click();
+      await p.waitForFunction(() => !document.getElementById('ai-modal-save-btn').disabled);
+      assert.match(await p.locator('#ai-modal-status-text').textContent(), /HTTP 401/);
+      assert.deepEqual(await p.evaluate(() => [aiUrl(), aiKey()]), ['http://127.0.0.1:8080/v1/chat/completions', 'test-local-key']);
+      status = 200;
+      await p.evaluate(async () => {
+        const original = Storage.prototype.setItem;
+        let fail = true;
+        Storage.prototype.setItem = function(key, value) {
+          if (key === AI_KEY_LS && fail) { fail = false; throw new DOMException('Synthetic quota', 'QuotaExceededError'); }
+          return original.call(this, key, value);
+        };
+        try { await saveAndVerifyAiFromModal(); } finally { Storage.prototype.setItem = original; }
+      });
+      assert.deepEqual(await p.evaluate(() => [aiUrl(), aiKey()]), ['http://127.0.0.1:8080/v1/chat/completions', 'test-local-key']);
+      await p.locator('#ai-modal-save-btn').click();
+      await p.waitForFunction(() => !document.getElementById('ai-modal-save-btn').disabled);
+      assert.deepEqual(requests[2], { body: { model: 'llama-3.3-70b-versatile', messages: [{ role: 'user', content: 'ping' }], max_tokens: 2 }, authorization: 'Bearer test-key-not-valid' });
+      await p.waitForFunction(() => document.getElementById('ai-modal').style.display === 'none');
+      await p.locator('#chat-model-select').selectOption('llama-3.1-8b-instant');
+      assert.equal(await p.evaluate(() => aiModel()), 'llama-3.1-8b-instant');
+      assert.equal(await p.evaluate(async () => (await fetchAiChat([{ role: 'user', content: 'Hello' }])).choices[0].message.content), 'Hello');
+      assert.equal(requests[3].body.model, 'llama-3.1-8b-instant');
+      await p.reload();
+      await p.waitForFunction(() => document.querySelectorAll('.level-block').length === 7);
+      await p.evaluate(() => showScreen('freechat'));
+      await p.getByRole('button', { name: 'Настройки ИИ', exact: true }).click();
+      assert.equal(await p.locator('#ai-key-input').inputValue(), 'test-key-not-valid');
+      assert.equal(await p.locator('#chat-model-select').inputValue(), 'llama-3.1-8b-instant');
+      assert.match(await p.locator('#ai-btn').textContent(), /Groq/);
+      await p.locator('#ai-modal').getByRole('button', { name: 'Порт 8080', exact: true }).click();
+      assert.equal(await p.locator('#ai-key-input').inputValue(), '');
+      assert.equal(await p.locator('#ai-modal-model-select').inputValue(), 'gemini-3.7-flash');
+      await p.locator('#ai-modal').getByRole('button', { name: 'Отмена', exact: true }).click();
+      assert.deepEqual(await p.evaluate(() => [aiUrl(), aiKey(), aiModel()]), ['https://api.groq.com/openai/v1/chat/completions', 'test-key-not-valid', 'llama-3.1-8b-instant']);
+      assert.deepEqual(fixture.errors, []);
+    } finally { await fixture.context.close(); }
+  });
   await test('late pronunciation permission releases microphone without recording', async () => {
     const stopped = await page.evaluate(async () => {
       localStorage.setItem(AAI_KEY_LS, 'synthetic-audit-key');

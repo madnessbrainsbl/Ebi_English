@@ -1,7 +1,8 @@
 {
   "name": "ebi-english",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
+  "author": "madnessbrainsbl",
   "scripts": {
     "test": "python dev/check_publication.py && node test_session_scope.js && node test_progress_transfer.js && python -m unittest test_content_quality.py dev.test_project_audit",
     "test:browser": "python dev/make_audit_fixtures.py && node dev/test_audit.js",

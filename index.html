@@ -2071,6 +2071,10 @@
         align-items: center;
         gap: 8px;
       }
+      #ai-modal .app-modal-footer,
+      #ai-modal .app-modal-footer-right {
+        flex-wrap: wrap;
+      }
       .app-modal-footer button {
         height: 38px;
         padding: 0 16px;
@@ -3716,6 +3720,7 @@
             <option value="gpt-4o">GPT-4o</option>
           </select>
           <button class="secondary-btn" onclick="toggleChatTemplates()">Шаблоны</button>
+          <button class="secondary-btn" onclick="openAiModal()">Настройки ИИ</button>
           <button class="secondary-btn" onclick="resetChat()">Новый чат</button>
         </div>
       </div>
@@ -4329,7 +4334,7 @@
         <div class="app-modal-header">
           <div>
             <div class="app-modal-title" id="ai-modal-title">Настройка ИИ-помощника</div>
-            <div class="app-modal-subtitle">Локальный Antigravity Tools или любой OpenAI-совместимый API</div>
+            <div class="app-modal-subtitle">Groq, локальный Antigravity Tools или OpenAI-совместимый API</div>
           </div>
           <button type="button" class="app-modal-close" onclick="closeAiModal()" title="Закрыть">&times;</button>
         </div>
@@ -4341,18 +4346,20 @@
               type="text"
               id="ai-endpoint-input"
               class="app-key-input"
+              onchange="updateAiEndpoint()"
               placeholder="http://127.0.0.1:8080/v1/chat/completions"
               autocomplete="off"
               spellcheck="false"
             />
-            <div class="app-input-actions">
+          </div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px;">
               <button type="button" class="app-action-link" onclick="setAiDefaultUrl(8080)">
                 Порт 8080
               </button>
+              <button type="button" class="app-action-link" onclick="setAiGroqUrl()">Groq</button>
               <button type="button" class="app-action-link" onclick="setAiDefaultUrl(8045)">
                 Порт 8045
               </button>
-            </div>
           </div>
 
           <label class="app-modal-label" for="ai-key-input" style="margin-top: 14px;">API-ключ (Bearer токен)</label>
@@ -4361,7 +4368,7 @@
               type="password"
               id="ai-key-input"
               class="app-key-input"
-              placeholder="sk-..."
+              placeholder="Ключ выбранного сервиса"
               autocomplete="off"
               spellcheck="false"
             />
@@ -4393,7 +4400,7 @@
           </div>
 
           <div class="app-modal-help">
-            По умолчанию используется локальный сервис Antigravity Tools (порт 8080 или 8045), который поднимает OpenAI-совместимый интерфейс к моделям Gemini. Ключ никогда не отображается в открытом виде и хранится локально в браузере (маскировка не является шифрованием).
+            Для Groq нажми «Groq», введи свой ключ из <a href="https://console.groq.com/keys" target="_blank" rel="noopener noreferrer">панели Groq</a> и проверь подключение. Ключ хранится локально в этом браузере; маскировка не является шифрованием. При смене сервиса введи его ключ заново.
           </div>
         </div>
 
@@ -9175,6 +9182,30 @@
       const AI_KEY_LS = "eng_ai_key";
       const AI_URL_LS = "eng_ai_url";
       const AI_MODEL_LS = "eng_ai_model";
+      const GROQ_AI_URL = "https://api.groq.com/openai/v1/chat/completions";
+      const GROQ_AI_MODELS = ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"];
+      const DEFAULT_AI_MODELS = Array.from(document.getElementById("ai-modal-model-select").options, option => option.value);
+
+      function aiOrigin(url) {
+        try { return new URL(url).origin; } catch { return ""; }
+      }
+
+      function fillAiModels(select, url, model) {
+        const models = aiOrigin(url) === aiOrigin(GROQ_AI_URL) ? GROQ_AI_MODELS : DEFAULT_AI_MODELS;
+        const values = models.includes(model) ? models : [...models, model];
+        select.replaceChildren(...values.map(value => new Option(value, value)));
+        select.value = model;
+      }
+
+      function updateAiEndpoint(model) {
+        const input = document.getElementById("ai-endpoint-input");
+        const origin = aiOrigin(input.value);
+        if (input.dataset.origin !== origin) document.getElementById("ai-key-input").value = "";
+        input.dataset.origin = origin;
+        const select = document.getElementById("ai-modal-model-select");
+        fillAiModels(select, input.value, model || (origin === aiOrigin(GROQ_AI_URL) ? GROQ_AI_MODELS[0] : DEFAULT_AI_MODEL));
+        updateAiModalStatus("neutral", "Введи ключ выбранного сервиса и проверь подключение");
+      }
 
       function aiKey() {
         const stored = localStorage.getItem(AI_KEY_LS) || localStorage.getItem("ai_key");
@@ -9231,8 +9262,9 @@
         if (!btn) return;
         const currentModel = aiModel();
         const currentUrl = aiUrl();
-        const isDefault = currentUrl === DEFAULT_AI_URL;
-        btn.textContent = "ИИ-помощник: Antigravity (" + currentModel + (isDefault ? "" : " / кастомный") + ")";
+        const provider = aiOrigin(currentUrl) === aiOrigin(GROQ_AI_URL) ? "Groq" :
+          [DEFAULT_AI_URL, "http://127.0.0.1:8045/v1/chat/completions"].includes(currentUrl) ? "Antigravity" : "свой API";
+        btn.textContent = "ИИ-помощник: " + provider + " (" + currentModel + ")";
       }
 
       function openAiModal() {
@@ -9242,9 +9274,9 @@
         const keyInput = document.getElementById("ai-key-input");
         const modelSelect = document.getElementById("ai-modal-model-select");
 
-        if (urlInput) urlInput.value = aiUrl();
+        if (urlInput) { urlInput.value = aiUrl(); urlInput.dataset.origin = aiOrigin(aiUrl()); }
         if (keyInput) keyInput.value = aiKey() || "";
-        if (modelSelect) modelSelect.value = aiModel();
+        if (modelSelect) fillAiModels(modelSelect, aiUrl(), aiModel());
 
         updateAiModalStatus("neutral", "Статус: нажмите 'Проверить и сохранить' для проверки подключения");
         modal.style.display = "flex";
@@ -9259,6 +9291,7 @@
         const urlInput = document.getElementById("ai-endpoint-input");
         if (urlInput) {
           urlInput.value = "http://127.0.0.1:" + port + "/v1/chat/completions";
+          updateAiEndpoint(DEFAULT_AI_MODEL);
           showToast("Установлен порт " + port);
         }
       }
@@ -9269,6 +9302,11 @@
         if (!statusBox || !statusText) return;
         statusBox.className = "app-key-status-box " + state;
         statusText.textContent = msg;
+      }
+
+      function setAiGroqUrl() {
+        document.getElementById("ai-endpoint-input").value = GROQ_AI_URL;
+        updateAiEndpoint(GROQ_AI_MODELS[0]);
       }
 
       async function verifyAiConnection(urlToTest, keyToTest, modelToTest) {
@@ -9319,24 +9357,28 @@
         }
         updateAiModalStatus("pending", "Проверяю подключение к " + targetUrl + "...");
 
+        let previousSettings;
         try {
           const testRes = await verifyAiConnection(targetUrl, targetKey, targetModel);
+          if (!testRes.ok) {
+            updateAiModalStatus("error", "Настройки не сохранены: " + (testRes.error || "ошибка подключения"));
+            return;
+          }
+          previousSettings = [AI_URL_LS, AI_KEY_LS, AI_MODEL_LS, "ai_url", "ai_key", "ai_model"].map(key => [key, localStorage.getItem(key)]);
           saveAiUrl(targetUrl);
           saveAiKey(targetKey);
           saveAiModel(targetModel);
           renderAiBtn();
-          const chatModelSelect = document.getElementById("chat-model-select");
-          if (chatModelSelect) chatModelSelect.value = targetModel;
+          initChatModelSelect();
 
-          if (testRes.ok) {
-            updateAiModalStatus("success", "Подключено: " + testRes.details);
-            showToast("ИИ-помощник подключен и проверен");
-            setTimeout(() => closeAiModal(), 1000);
-          } else {
-            updateAiModalStatus("error", "Сохранено, но тест не прошёл: " + (testRes.error || "ошибка"));
-            showToast("Настройки сохранены (сервер не ответил)");
-          }
+          updateAiModalStatus("success", "Подключено: " + testRes.details);
+          showToast("ИИ-помощник подключен и проверен");
+          setTimeout(() => closeAiModal(), 1000);
         } catch (error) {
+          if (previousSettings) {
+            previousSettings.forEach(([key]) => localStorage.removeItem(key));
+            previousSettings.forEach(([key, value]) => { if (value !== null) localStorage.setItem(key, value); });
+          }
           updateAiModalStatus("error", "Настройки не сохранены: " + error.message);
           showToast("Не удалось сохранить настройки ИИ в браузере");
         } finally {
@@ -9359,13 +9401,12 @@
         const keyInput = document.getElementById("ai-key-input");
         const modelSelect = document.getElementById("ai-modal-model-select");
 
-        if (urlInput) urlInput.value = DEFAULT_AI_URL;
+        if (urlInput) { urlInput.value = DEFAULT_AI_URL; urlInput.dataset.origin = aiOrigin(DEFAULT_AI_URL); }
         if (keyInput) keyInput.value = DEFAULT_AI_KEY;
-        if (modelSelect) modelSelect.value = DEFAULT_AI_MODEL;
+        if (modelSelect) fillAiModels(modelSelect, DEFAULT_AI_URL, DEFAULT_AI_MODEL);
 
         renderAiBtn();
-        const chatModelSelect = document.getElementById("chat-model-select");
-        if (chatModelSelect) chatModelSelect.value = DEFAULT_AI_MODEL;
+        initChatModelSelect();
 
         updateAiModalStatus("success", "Сброшено к настройкам по умолчанию (Antigravity 8080)");
         showToast("Сброшено по умолчанию");
@@ -9716,7 +9757,7 @@
       function initChatModelSelect() {
         const select = document.getElementById("chat-model-select");
         if (!select) return;
-        select.value = aiModel();
+        fillAiModels(select, aiUrl(), aiModel());
       }
 
       function changeAiModel(val) {
