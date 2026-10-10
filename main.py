@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Ebi_English — адаптивное изучение английского по карточкам.
+English Flashcard App — адаптивное изучение английского по карточкам.
 Алгоритм SM-2: чем чаще ошибаешься — тем чаще карточка повторяется.
 """
 
@@ -177,7 +177,7 @@ def cards_to_review(all_cards, progress):
 def print_header():
     clear()
     print(color("╔══════════════════════════════════════════╗", C.CYAN, C.BOLD))
-    print(color("║          Ebi_English — с нуля           ║", C.CYAN, C.BOLD))
+    print(color("║       ENGLISH FLASHCARDS — с нуля       ║", C.CYAN, C.BOLD))
     print(color("╚══════════════════════════════════════════╝", C.CYAN, C.BOLD))
     print()
 

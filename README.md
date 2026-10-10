@@ -4,6 +4,8 @@
 
 Ebi_English — тренажёр английского для русскоязычных пользователей: **11 124 карточки в 300 колодах**, интервальные повторения, грамматика, чтение документов, аудио и необязательный ИИ-преподаватель. Интерфейс и подсказки на русском.
 
+Название репозитория — **Ebi_English**. В интерфейсе сохранено авторское название **«Грет британ блть»** и логотип **GB English**.
+
 [![Проверки](https://github.com/madnessbrainsbl/Ebi_English/actions/workflows/test.yml/badge.svg)](https://github.com/madnessbrainsbl/Ebi_English/actions/workflows/test.yml)
 [![Лицензия кода: MIT](https://img.shields.io/badge/код-MIT-blue.svg)](LICENSE)
 [![Без сборки](https://img.shields.io/badge/запуск-без_сборки-5b5ee0.svg)](index.html)
