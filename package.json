@@ -1,0 +1,17 @@
+{
+  "name": "gb-english-cards",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "python dev/check_publication.py && node test_session_scope.js && node test_progress_transfer.js && python -m unittest test_content_quality.py dev.test_project_audit",
+    "test:browser": "python dev/make_audit_fixtures.py && node dev/test_audit.js",
+    "test:all": "npm test && npm run test:browser && npm run test:browser:http",
+    "test:browser:http": "python dev/make_audit_fixtures.py && python dev/test_http.py"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

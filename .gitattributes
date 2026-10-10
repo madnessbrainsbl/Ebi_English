@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.db binary
+*.wasm binary
+*.png binary

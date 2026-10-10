@@ -1,0 +1,131 @@
+{
+  "levels": {
+    "1": {
+      "name": "Приветствия и базовые фразы",
+      "cards": [
+        {"en": "Hello", "ru": "Привет", "example": "Hello! How are you?"},
+        {"en": "Goodbye", "ru": "Пока / До свидания", "example": "Goodbye! See you tomorrow."},
+        {"en": "Thank you", "ru": "Спасибо", "example": "Thank you for your help."},
+        {"en": "Please", "ru": "Пожалуйста", "example": "Please, sit down."},
+        {"en": "Yes", "ru": "Да", "example": "Yes, I understand."},
+        {"en": "No", "ru": "Нет", "example": "No, I don't want it."},
+        {"en": "Sorry", "ru": "Извините / Прости", "example": "Sorry, I'm late."},
+        {"en": "Excuse me", "ru": "Простите / Разрешите", "example": "Excuse me, where is the station?"},
+        {"en": "Good morning", "ru": "Доброе утро", "example": "Good morning! Did you sleep well?"},
+        {"en": "Good night", "ru": "Спокойной ночи", "example": "Good night, sweet dreams."}
+      ]
+    },
+    "2": {
+      "name": "Числа и время",
+      "cards": [
+        {"en": "One", "ru": "Один", "example": "I have one cat."},
+        {"en": "Two", "ru": "Два", "example": "Two apples, please."},
+        {"en": "Three", "ru": "Три", "example": "Three days later."},
+        {"en": "Four", "ru": "Четыре", "example": "Four seasons."},
+        {"en": "Five", "ru": "Пять", "example": "Five minutes."},
+        {"en": "Ten", "ru": "Десять", "example": "Ten dollars."},
+        {"en": "Day", "ru": "День", "example": "Have a nice day!"},
+        {"en": "Night", "ru": "Ночь", "example": "The night is dark."},
+        {"en": "Week", "ru": "Неделя", "example": "I work five days a week."},
+        {"en": "Year", "ru": "Год", "example": "Happy New Year!"},
+        {"en": "Today", "ru": "Сегодня", "example": "What is today's date?"},
+        {"en": "Tomorrow", "ru": "Завтра", "example": "See you tomorrow."},
+        {"en": "Yesterday", "ru": "Вчера", "example": "I was sick yesterday."}
+      ]
+    },
+    "3": {
+      "name": "Цвета",
+      "cards": [
+        {"en": "Red", "ru": "Красный", "example": "The apple is red."},
+        {"en": "Blue", "ru": "Синий / Голубой", "example": "The sky is blue."},
+        {"en": "Green", "ru": "Зелёный", "example": "The grass is green."},
+        {"en": "Yellow", "ru": "Жёлтый", "example": "The sun is yellow."},
+        {"en": "Black", "ru": "Чёрный", "example": "I have a black cat."},
+        {"en": "White", "ru": "Белый", "example": "Snow is white."},
+        {"en": "Orange", "ru": "Оранжевый", "example": "Oranges are orange."},
+        {"en": "Pink", "ru": "Розовый", "example": "She likes pink flowers."},
+        {"en": "Brown", "ru": "Коричневый", "example": "The bear is brown."},
+        {"en": "Grey", "ru": "Серый", "example": "It is a grey day."}
+      ]
+    },
+    "4": {
+      "name": "Семья",
+      "cards": [
+        {"en": "Mother", "ru": "Мать / Мама", "example": "My mother is kind."},
+        {"en": "Father", "ru": "Отец / Папа", "example": "My father works hard."},
+        {"en": "Sister", "ru": "Сестра", "example": "I have two sisters."},
+        {"en": "Brother", "ru": "Брат", "example": "My brother is tall."},
+        {"en": "Son", "ru": "Сын", "example": "They have one son."},
+        {"en": "Daughter", "ru": "Дочь", "example": "She is my daughter."},
+        {"en": "Friend", "ru": "Друг / Подруга", "example": "He is my best friend."},
+        {"en": "Wife", "ru": "Жена", "example": "His wife is a doctor."},
+        {"en": "Husband", "ru": "Муж", "example": "Her husband cooks well."},
+        {"en": "Baby", "ru": "Малыш / Ребёнок", "example": "The baby is sleeping."}
+      ]
+    },
+    "5": {
+      "name": "Еда и напитки",
+      "cards": [
+        {"en": "Water", "ru": "Вода", "example": "I drink water every day."},
+        {"en": "Bread", "ru": "Хлеб", "example": "Give me some bread, please."},
+        {"en": "Milk", "ru": "Молоко", "example": "I like warm milk."},
+        {"en": "Apple", "ru": "Яблоко", "example": "An apple a day keeps the doctor away."},
+        {"en": "Egg", "ru": "Яйцо", "example": "I eat one egg for breakfast."},
+        {"en": "Coffee", "ru": "Кофе", "example": "I need coffee in the morning."},
+        {"en": "Tea", "ru": "Чай", "example": "Would you like some tea?"},
+        {"en": "Soup", "ru": "Суп", "example": "The soup is hot."},
+        {"en": "Meat", "ru": "Мясо", "example": "I don't eat meat."},
+        {"en": "Fish", "ru": "Рыба", "example": "Fish is healthy food."},
+        {"en": "Cheese", "ru": "Сыр", "example": "I love cheese."},
+        {"en": "Sugar", "ru": "Сахар", "example": "No sugar for me, thanks."}
+      ]
+    },
+    "6": {
+      "name": "Тело и здоровье",
+      "cards": [
+        {"en": "Head", "ru": "Голова", "example": "My head hurts."},
+        {"en": "Hand", "ru": "Рука (кисть)", "example": "Wash your hands."},
+        {"en": "Eye", "ru": "Глаз", "example": "She has green eyes."},
+        {"en": "Nose", "ru": "Нос", "example": "My nose is cold."},
+        {"en": "Mouth", "ru": "Рот", "example": "Open your mouth."},
+        {"en": "Ear", "ru": "Ухо", "example": "Can you hear me?"},
+        {"en": "Heart", "ru": "Сердце", "example": "My heart beats fast."},
+        {"en": "Leg", "ru": "Нога", "example": "My leg hurts."},
+        {"en": "Back", "ru": "Спина", "example": "I have back pain."},
+        {"en": "Sick", "ru": "Больной / Больно", "example": "I feel sick today."}
+      ]
+    },
+    "7": {
+      "name": "Базовые глаголы",
+      "cards": [
+        {"en": "To be", "ru": "Быть", "example": "I am happy."},
+        {"en": "To have", "ru": "Иметь", "example": "I have a dog."},
+        {"en": "To go", "ru": "Идти / Ехать", "example": "Let's go to the park."},
+        {"en": "To eat", "ru": "Есть / Кушать", "example": "I eat lunch at noon."},
+        {"en": "To drink", "ru": "Пить", "example": "Drink more water."},
+        {"en": "To sleep", "ru": "Спать", "example": "I sleep 8 hours."},
+        {"en": "To work", "ru": "Работать", "example": "She works from home."},
+        {"en": "To love", "ru": "Любить", "example": "I love my family."},
+        {"en": "To know", "ru": "Знать", "example": "I don't know the answer."},
+        {"en": "To want", "ru": "Хотеть", "example": "I want to learn English."},
+        {"en": "To see", "ru": "Видеть", "example": "I can see the mountains."},
+        {"en": "To speak", "ru": "Говорить", "example": "Do you speak English?"}
+      ]
+    },
+    "8": {
+      "name": "Дом и мебель",
+      "cards": [
+        {"en": "House", "ru": "Дом", "example": "I live in a big house."},
+        {"en": "Room", "ru": "Комната", "example": "This room is small."},
+        {"en": "Door", "ru": "Дверь", "example": "Close the door, please."},
+        {"en": "Window", "ru": "Окно", "example": "Open the window."},
+        {"en": "Table", "ru": "Стол", "example": "Dinner is on the table."},
+        {"en": "Chair", "ru": "Стул", "example": "Sit on the chair."},
+        {"en": "Bed", "ru": "Кровать", "example": "I sleep in a big bed."},
+        {"en": "Kitchen", "ru": "Кухня", "example": "She is in the kitchen."},
+        {"en": "Bathroom", "ru": "Ванная", "example": "The bathroom is upstairs."},
+        {"en": "Floor", "ru": "Пол", "example": "The floor is cold."}
+      ]
+    }
+  }
+}

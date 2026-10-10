@@ -1,0 +1,947 @@
+[
+  {
+    "deck_id": "CL_A2",
+    "en": "This is ___ report.",
+    "ru": "a",
+    "example": "This is a report.",
+    "tip": "Неопределённый артикль: a перед согласным звуком, an перед гласным."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "The report ___ (be) on my desk.",
+    "ru": "is",
+    "example": "The report is on my desk.",
+    "tip": "Present Simple: единственное число третьего лица."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "We ___ (not need) the report today.",
+    "ru": "do not need",
+    "example": "We do not need the report today.",
+    "tip": "Present Simple: отрицание с we."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "Did you ___ (read) the report yesterday?",
+    "ru": "read",
+    "example": "Did you read the report yesterday?",
+    "tip": "После did используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "They ___ (check) the report last night.",
+    "ru": "checked",
+    "example": "They checked the report last night.",
+    "tip": "Past Simple: правильный глагол check."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "This is ___ proposal.",
+    "ru": "a",
+    "example": "This is a proposal.",
+    "tip": "Неопределённый артикль: a перед согласным звуком, an перед гласным."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "The proposal ___ (be) on my desk.",
+    "ru": "is",
+    "example": "The proposal is on my desk.",
+    "tip": "Present Simple: единственное число третьего лица."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "We ___ (not need) the proposal today.",
+    "ru": "do not need",
+    "example": "We do not need the proposal today.",
+    "tip": "Present Simple: отрицание с we."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "Did you ___ (read) the proposal yesterday?",
+    "ru": "read",
+    "example": "Did you read the proposal yesterday?",
+    "tip": "После did используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "They ___ (check) the proposal last night.",
+    "ru": "checked",
+    "example": "They checked the proposal last night.",
+    "tip": "Past Simple: правильный глагол check."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "This is ___ manual.",
+    "ru": "a",
+    "example": "This is a manual.",
+    "tip": "Неопределённый артикль: a перед согласным звуком, an перед гласным."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "The manual ___ (be) on my desk.",
+    "ru": "is",
+    "example": "The manual is on my desk.",
+    "tip": "Present Simple: единственное число третьего лица."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "We ___ (not need) the manual today.",
+    "ru": "do not need",
+    "example": "We do not need the manual today.",
+    "tip": "Present Simple: отрицание с we."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "Did you ___ (read) the manual yesterday?",
+    "ru": "read",
+    "example": "Did you read the manual yesterday?",
+    "tip": "После did используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "They ___ (check) the manual last night.",
+    "ru": "checked",
+    "example": "They checked the manual last night.",
+    "tip": "Past Simple: правильный глагол check."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "This is ___ schedule.",
+    "ru": "a",
+    "example": "This is a schedule.",
+    "tip": "Неопределённый артикль: a перед согласным звуком, an перед гласным."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "The schedule ___ (be) on my desk.",
+    "ru": "is",
+    "example": "The schedule is on my desk.",
+    "tip": "Present Simple: единственное число третьего лица."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "We ___ (not need) the schedule today.",
+    "ru": "do not need",
+    "example": "We do not need the schedule today.",
+    "tip": "Present Simple: отрицание с we."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "Did you ___ (read) the schedule yesterday?",
+    "ru": "read",
+    "example": "Did you read the schedule yesterday?",
+    "tip": "После did используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "They ___ (check) the schedule last night.",
+    "ru": "checked",
+    "example": "They checked the schedule last night.",
+    "tip": "Past Simple: правильный глагол check."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "This is ___ contract.",
+    "ru": "a",
+    "example": "This is a contract.",
+    "tip": "Неопределённый артикль: a перед согласным звуком, an перед гласным."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "The contract ___ (be) on my desk.",
+    "ru": "is",
+    "example": "The contract is on my desk.",
+    "tip": "Present Simple: единственное число третьего лица."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "We ___ (not need) the contract today.",
+    "ru": "do not need",
+    "example": "We do not need the contract today.",
+    "tip": "Present Simple: отрицание с we."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "Did you ___ (read) the contract yesterday?",
+    "ru": "read",
+    "example": "Did you read the contract yesterday?",
+    "tip": "После did используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "They ___ (check) the contract last night.",
+    "ru": "checked",
+    "example": "They checked the contract last night.",
+    "tip": "Past Simple: правильный глагол check."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "This is ___ message.",
+    "ru": "a",
+    "example": "This is a message.",
+    "tip": "Неопределённый артикль: a перед согласным звуком, an перед гласным."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "The message ___ (be) on my desk.",
+    "ru": "is",
+    "example": "The message is on my desk.",
+    "tip": "Present Simple: единственное число третьего лица."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "We ___ (not need) the message today.",
+    "ru": "do not need",
+    "example": "We do not need the message today.",
+    "tip": "Present Simple: отрицание с we."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "Did you ___ (read) the message yesterday?",
+    "ru": "read",
+    "example": "Did you read the message yesterday?",
+    "tip": "После did используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "They ___ (check) the message last night.",
+    "ru": "checked",
+    "example": "They checked the message last night.",
+    "tip": "Past Simple: правильный глагол check."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "This is ___ document.",
+    "ru": "a",
+    "example": "This is a document.",
+    "tip": "Неопределённый артикль: a перед согласным звуком, an перед гласным."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "The document ___ (be) on my desk.",
+    "ru": "is",
+    "example": "The document is on my desk.",
+    "tip": "Present Simple: единственное число третьего лица."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "We ___ (not need) the document today.",
+    "ru": "do not need",
+    "example": "We do not need the document today.",
+    "tip": "Present Simple: отрицание с we."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "Did you ___ (read) the document yesterday?",
+    "ru": "read",
+    "example": "Did you read the document yesterday?",
+    "tip": "После did используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "They ___ (check) the document last night.",
+    "ru": "checked",
+    "example": "They checked the document last night.",
+    "tip": "Past Simple: правильный глагол check."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "This is ___ plan.",
+    "ru": "a",
+    "example": "This is a plan.",
+    "tip": "Неопределённый артикль: a перед согласным звуком, an перед гласным."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "The plan ___ (be) on my desk.",
+    "ru": "is",
+    "example": "The plan is on my desk.",
+    "tip": "Present Simple: единственное число третьего лица."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "We ___ (not need) the plan today.",
+    "ru": "do not need",
+    "example": "We do not need the plan today.",
+    "tip": "Present Simple: отрицание с we."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "Did you ___ (read) the plan yesterday?",
+    "ru": "read",
+    "example": "Did you read the plan yesterday?",
+    "tip": "После did используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "They ___ (check) the plan last night.",
+    "ru": "checked",
+    "example": "They checked the plan last night.",
+    "tip": "Past Simple: правильный глагол check."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "This is ___ outline.",
+    "ru": "an",
+    "example": "This is an outline.",
+    "tip": "Неопределённый артикль: a перед согласным звуком, an перед гласным."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "The outline ___ (be) on my desk.",
+    "ru": "is",
+    "example": "The outline is on my desk.",
+    "tip": "Present Simple: единственное число третьего лица."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "We ___ (not need) the outline today.",
+    "ru": "do not need",
+    "example": "We do not need the outline today.",
+    "tip": "Present Simple: отрицание с we."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "Did you ___ (read) the outline yesterday?",
+    "ru": "read",
+    "example": "Did you read the outline yesterday?",
+    "tip": "После did используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_A2",
+    "en": "They ___ (check) the outline last night.",
+    "ru": "checked",
+    "example": "They checked the outline last night.",
+    "tip": "Past Simple: правильный глагол check."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "I have ___ (finish) the report.",
+    "ru": "finished",
+    "example": "I have finished the report.",
+    "tip": "Present Perfect: have + причастие прошедшего времени."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "When the report arrived, we ___ (wait) for the client.",
+    "ru": "were waiting",
+    "example": "When the report arrived, we were waiting for the client.",
+    "tip": "Past Continuous: действие в процессе в указанный момент прошлого."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "The report ___ (send) yesterday.",
+    "ru": "was sent",
+    "example": "The report was sent yesterday.",
+    "tip": "Past Simple Passive: was + sent."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "If the report is ready, I ___ (send) it tomorrow.",
+    "ru": "will send",
+    "example": "If the report is ready, I will send it tomorrow.",
+    "tip": "First Conditional: if + Present Simple, will + глагол."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "You should ___ (check) the report again.",
+    "ru": "check",
+    "example": "You should check the report again.",
+    "tip": "После should используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "I have ___ (finish) the proposal.",
+    "ru": "finished",
+    "example": "I have finished the proposal.",
+    "tip": "Present Perfect: have + причастие прошедшего времени."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "When the proposal arrived, we ___ (wait) for the client.",
+    "ru": "were waiting",
+    "example": "When the proposal arrived, we were waiting for the client.",
+    "tip": "Past Continuous: действие в процессе в указанный момент прошлого."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "The proposal ___ (send) yesterday.",
+    "ru": "was sent",
+    "example": "The proposal was sent yesterday.",
+    "tip": "Past Simple Passive: was + sent."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "If the proposal is ready, I ___ (send) it tomorrow.",
+    "ru": "will send",
+    "example": "If the proposal is ready, I will send it tomorrow.",
+    "tip": "First Conditional: if + Present Simple, will + глагол."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "You should ___ (check) the proposal again.",
+    "ru": "check",
+    "example": "You should check the proposal again.",
+    "tip": "После should используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "I have ___ (finish) the manual.",
+    "ru": "finished",
+    "example": "I have finished the manual.",
+    "tip": "Present Perfect: have + причастие прошедшего времени."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "When the manual arrived, we ___ (wait) for the client.",
+    "ru": "were waiting",
+    "example": "When the manual arrived, we were waiting for the client.",
+    "tip": "Past Continuous: действие в процессе в указанный момент прошлого."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "The manual ___ (send) yesterday.",
+    "ru": "was sent",
+    "example": "The manual was sent yesterday.",
+    "tip": "Past Simple Passive: was + sent."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "If the manual is ready, I ___ (send) it tomorrow.",
+    "ru": "will send",
+    "example": "If the manual is ready, I will send it tomorrow.",
+    "tip": "First Conditional: if + Present Simple, will + глагол."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "You should ___ (check) the manual again.",
+    "ru": "check",
+    "example": "You should check the manual again.",
+    "tip": "После should используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "I have ___ (finish) the schedule.",
+    "ru": "finished",
+    "example": "I have finished the schedule.",
+    "tip": "Present Perfect: have + причастие прошедшего времени."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "When the schedule arrived, we ___ (wait) for the client.",
+    "ru": "were waiting",
+    "example": "When the schedule arrived, we were waiting for the client.",
+    "tip": "Past Continuous: действие в процессе в указанный момент прошлого."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "The schedule ___ (send) yesterday.",
+    "ru": "was sent",
+    "example": "The schedule was sent yesterday.",
+    "tip": "Past Simple Passive: was + sent."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "If the schedule is ready, I ___ (send) it tomorrow.",
+    "ru": "will send",
+    "example": "If the schedule is ready, I will send it tomorrow.",
+    "tip": "First Conditional: if + Present Simple, will + глагол."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "You should ___ (check) the schedule again.",
+    "ru": "check",
+    "example": "You should check the schedule again.",
+    "tip": "После should используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "I have ___ (finish) the contract.",
+    "ru": "finished",
+    "example": "I have finished the contract.",
+    "tip": "Present Perfect: have + причастие прошедшего времени."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "When the contract arrived, we ___ (wait) for the client.",
+    "ru": "were waiting",
+    "example": "When the contract arrived, we were waiting for the client.",
+    "tip": "Past Continuous: действие в процессе в указанный момент прошлого."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "The contract ___ (send) yesterday.",
+    "ru": "was sent",
+    "example": "The contract was sent yesterday.",
+    "tip": "Past Simple Passive: was + sent."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "If the contract is ready, I ___ (send) it tomorrow.",
+    "ru": "will send",
+    "example": "If the contract is ready, I will send it tomorrow.",
+    "tip": "First Conditional: if + Present Simple, will + глагол."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "You should ___ (check) the contract again.",
+    "ru": "check",
+    "example": "You should check the contract again.",
+    "tip": "После should используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "I have ___ (finish) the message.",
+    "ru": "finished",
+    "example": "I have finished the message.",
+    "tip": "Present Perfect: have + причастие прошедшего времени."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "When the message arrived, we ___ (wait) for the client.",
+    "ru": "were waiting",
+    "example": "When the message arrived, we were waiting for the client.",
+    "tip": "Past Continuous: действие в процессе в указанный момент прошлого."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "The message ___ (send) yesterday.",
+    "ru": "was sent",
+    "example": "The message was sent yesterday.",
+    "tip": "Past Simple Passive: was + sent."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "If the message is ready, I ___ (send) it tomorrow.",
+    "ru": "will send",
+    "example": "If the message is ready, I will send it tomorrow.",
+    "tip": "First Conditional: if + Present Simple, will + глагол."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "You should ___ (check) the message again.",
+    "ru": "check",
+    "example": "You should check the message again.",
+    "tip": "После should используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "I have ___ (finish) the document.",
+    "ru": "finished",
+    "example": "I have finished the document.",
+    "tip": "Present Perfect: have + причастие прошедшего времени."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "When the document arrived, we ___ (wait) for the client.",
+    "ru": "were waiting",
+    "example": "When the document arrived, we were waiting for the client.",
+    "tip": "Past Continuous: действие в процессе в указанный момент прошлого."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "The document ___ (send) yesterday.",
+    "ru": "was sent",
+    "example": "The document was sent yesterday.",
+    "tip": "Past Simple Passive: was + sent."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "If the document is ready, I ___ (send) it tomorrow.",
+    "ru": "will send",
+    "example": "If the document is ready, I will send it tomorrow.",
+    "tip": "First Conditional: if + Present Simple, will + глагол."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "You should ___ (check) the document again.",
+    "ru": "check",
+    "example": "You should check the document again.",
+    "tip": "После should используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "I have ___ (finish) the plan.",
+    "ru": "finished",
+    "example": "I have finished the plan.",
+    "tip": "Present Perfect: have + причастие прошедшего времени."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "When the plan arrived, we ___ (wait) for the client.",
+    "ru": "were waiting",
+    "example": "When the plan arrived, we were waiting for the client.",
+    "tip": "Past Continuous: действие в процессе в указанный момент прошлого."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "The plan ___ (send) yesterday.",
+    "ru": "was sent",
+    "example": "The plan was sent yesterday.",
+    "tip": "Past Simple Passive: was + sent."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "If the plan is ready, I ___ (send) it tomorrow.",
+    "ru": "will send",
+    "example": "If the plan is ready, I will send it tomorrow.",
+    "tip": "First Conditional: if + Present Simple, will + глагол."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "You should ___ (check) the plan again.",
+    "ru": "check",
+    "example": "You should check the plan again.",
+    "tip": "После should используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "I have ___ (finish) the outline.",
+    "ru": "finished",
+    "example": "I have finished the outline.",
+    "tip": "Present Perfect: have + причастие прошедшего времени."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "When the outline arrived, we ___ (wait) for the client.",
+    "ru": "were waiting",
+    "example": "When the outline arrived, we were waiting for the client.",
+    "tip": "Past Continuous: действие в процессе в указанный момент прошлого."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "The outline ___ (send) yesterday.",
+    "ru": "was sent",
+    "example": "The outline was sent yesterday.",
+    "tip": "Past Simple Passive: was + sent."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "If the outline is ready, I ___ (send) it tomorrow.",
+    "ru": "will send",
+    "example": "If the outline is ready, I will send it tomorrow.",
+    "tip": "First Conditional: if + Present Simple, will + глагол."
+  },
+  {
+    "deck_id": "CL_B1",
+    "en": "You should ___ (check) the outline again.",
+    "ru": "check",
+    "example": "You should check the outline again.",
+    "tip": "После should используйте начальную форму глагола."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "If I had seen the report earlier, I ___ (reply) sooner.",
+    "ru": "would have replied",
+    "example": "If I had seen the report earlier, I would have replied sooner.",
+    "tip": "Third Conditional: would have + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "The report ___ (review) before the meeting started.",
+    "ru": "had been reviewed",
+    "example": "The report had been reviewed before the meeting started.",
+    "tip": "Past Perfect Passive: had been + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "By Friday, we ___ (complete) the report.",
+    "ru": "will have completed",
+    "example": "By Friday, we will have completed the report.",
+    "tip": "Future Perfect: завершение к указанному моменту будущего."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "She insisted that the report ___ (be) revised.",
+    "ru": "be",
+    "example": "She insisted that the report be revised.",
+    "tip": "Сослагательное наклонение после insist: начальная форма be."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "Only after reading the report ___ (we / understand) the problem.",
+    "ru": "did we understand",
+    "example": "Only after reading the report did we understand the problem.",
+    "tip": "Инверсия после Only: did + подлежащее + начальная форма."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "If I had seen the proposal earlier, I ___ (reply) sooner.",
+    "ru": "would have replied",
+    "example": "If I had seen the proposal earlier, I would have replied sooner.",
+    "tip": "Third Conditional: would have + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "The proposal ___ (review) before the meeting started.",
+    "ru": "had been reviewed",
+    "example": "The proposal had been reviewed before the meeting started.",
+    "tip": "Past Perfect Passive: had been + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "By Friday, we ___ (complete) the proposal.",
+    "ru": "will have completed",
+    "example": "By Friday, we will have completed the proposal.",
+    "tip": "Future Perfect: завершение к указанному моменту будущего."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "She insisted that the proposal ___ (be) revised.",
+    "ru": "be",
+    "example": "She insisted that the proposal be revised.",
+    "tip": "Сослагательное наклонение после insist: начальная форма be."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "Only after reading the proposal ___ (we / understand) the problem.",
+    "ru": "did we understand",
+    "example": "Only after reading the proposal did we understand the problem.",
+    "tip": "Инверсия после Only: did + подлежащее + начальная форма."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "If I had seen the manual earlier, I ___ (reply) sooner.",
+    "ru": "would have replied",
+    "example": "If I had seen the manual earlier, I would have replied sooner.",
+    "tip": "Third Conditional: would have + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "The manual ___ (review) before the meeting started.",
+    "ru": "had been reviewed",
+    "example": "The manual had been reviewed before the meeting started.",
+    "tip": "Past Perfect Passive: had been + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "By Friday, we ___ (complete) the manual.",
+    "ru": "will have completed",
+    "example": "By Friday, we will have completed the manual.",
+    "tip": "Future Perfect: завершение к указанному моменту будущего."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "She insisted that the manual ___ (be) revised.",
+    "ru": "be",
+    "example": "She insisted that the manual be revised.",
+    "tip": "Сослагательное наклонение после insist: начальная форма be."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "Only after reading the manual ___ (we / understand) the problem.",
+    "ru": "did we understand",
+    "example": "Only after reading the manual did we understand the problem.",
+    "tip": "Инверсия после Only: did + подлежащее + начальная форма."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "If I had seen the schedule earlier, I ___ (reply) sooner.",
+    "ru": "would have replied",
+    "example": "If I had seen the schedule earlier, I would have replied sooner.",
+    "tip": "Third Conditional: would have + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "The schedule ___ (review) before the meeting started.",
+    "ru": "had been reviewed",
+    "example": "The schedule had been reviewed before the meeting started.",
+    "tip": "Past Perfect Passive: had been + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "By Friday, we ___ (complete) the schedule.",
+    "ru": "will have completed",
+    "example": "By Friday, we will have completed the schedule.",
+    "tip": "Future Perfect: завершение к указанному моменту будущего."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "She insisted that the schedule ___ (be) revised.",
+    "ru": "be",
+    "example": "She insisted that the schedule be revised.",
+    "tip": "Сослагательное наклонение после insist: начальная форма be."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "Only after reading the schedule ___ (we / understand) the problem.",
+    "ru": "did we understand",
+    "example": "Only after reading the schedule did we understand the problem.",
+    "tip": "Инверсия после Only: did + подлежащее + начальная форма."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "If I had seen the contract earlier, I ___ (reply) sooner.",
+    "ru": "would have replied",
+    "example": "If I had seen the contract earlier, I would have replied sooner.",
+    "tip": "Third Conditional: would have + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "The contract ___ (review) before the meeting started.",
+    "ru": "had been reviewed",
+    "example": "The contract had been reviewed before the meeting started.",
+    "tip": "Past Perfect Passive: had been + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "By Friday, we ___ (complete) the contract.",
+    "ru": "will have completed",
+    "example": "By Friday, we will have completed the contract.",
+    "tip": "Future Perfect: завершение к указанному моменту будущего."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "She insisted that the contract ___ (be) revised.",
+    "ru": "be",
+    "example": "She insisted that the contract be revised.",
+    "tip": "Сослагательное наклонение после insist: начальная форма be."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "Only after reading the contract ___ (we / understand) the problem.",
+    "ru": "did we understand",
+    "example": "Only after reading the contract did we understand the problem.",
+    "tip": "Инверсия после Only: did + подлежащее + начальная форма."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "If I had seen the message earlier, I ___ (reply) sooner.",
+    "ru": "would have replied",
+    "example": "If I had seen the message earlier, I would have replied sooner.",
+    "tip": "Third Conditional: would have + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "The message ___ (review) before the meeting started.",
+    "ru": "had been reviewed",
+    "example": "The message had been reviewed before the meeting started.",
+    "tip": "Past Perfect Passive: had been + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "By Friday, we ___ (complete) the message.",
+    "ru": "will have completed",
+    "example": "By Friday, we will have completed the message.",
+    "tip": "Future Perfect: завершение к указанному моменту будущего."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "She insisted that the message ___ (be) revised.",
+    "ru": "be",
+    "example": "She insisted that the message be revised.",
+    "tip": "Сослагательное наклонение после insist: начальная форма be."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "Only after reading the message ___ (we / understand) the problem.",
+    "ru": "did we understand",
+    "example": "Only after reading the message did we understand the problem.",
+    "tip": "Инверсия после Only: did + подлежащее + начальная форма."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "If I had seen the document earlier, I ___ (reply) sooner.",
+    "ru": "would have replied",
+    "example": "If I had seen the document earlier, I would have replied sooner.",
+    "tip": "Third Conditional: would have + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "The document ___ (review) before the meeting started.",
+    "ru": "had been reviewed",
+    "example": "The document had been reviewed before the meeting started.",
+    "tip": "Past Perfect Passive: had been + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "By Friday, we ___ (complete) the document.",
+    "ru": "will have completed",
+    "example": "By Friday, we will have completed the document.",
+    "tip": "Future Perfect: завершение к указанному моменту будущего."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "She insisted that the document ___ (be) revised.",
+    "ru": "be",
+    "example": "She insisted that the document be revised.",
+    "tip": "Сослагательное наклонение после insist: начальная форма be."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "Only after reading the document ___ (we / understand) the problem.",
+    "ru": "did we understand",
+    "example": "Only after reading the document did we understand the problem.",
+    "tip": "Инверсия после Only: did + подлежащее + начальная форма."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "If I had seen the plan earlier, I ___ (reply) sooner.",
+    "ru": "would have replied",
+    "example": "If I had seen the plan earlier, I would have replied sooner.",
+    "tip": "Third Conditional: would have + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "The plan ___ (review) before the meeting started.",
+    "ru": "had been reviewed",
+    "example": "The plan had been reviewed before the meeting started.",
+    "tip": "Past Perfect Passive: had been + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "By Friday, we ___ (complete) the plan.",
+    "ru": "will have completed",
+    "example": "By Friday, we will have completed the plan.",
+    "tip": "Future Perfect: завершение к указанному моменту будущего."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "She insisted that the plan ___ (be) revised.",
+    "ru": "be",
+    "example": "She insisted that the plan be revised.",
+    "tip": "Сослагательное наклонение после insist: начальная форма be."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "Only after reading the plan ___ (we / understand) the problem.",
+    "ru": "did we understand",
+    "example": "Only after reading the plan did we understand the problem.",
+    "tip": "Инверсия после Only: did + подлежащее + начальная форма."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "If I had seen the outline earlier, I ___ (reply) sooner.",
+    "ru": "would have replied",
+    "example": "If I had seen the outline earlier, I would have replied sooner.",
+    "tip": "Third Conditional: would have + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "The outline ___ (review) before the meeting started.",
+    "ru": "had been reviewed",
+    "example": "The outline had been reviewed before the meeting started.",
+    "tip": "Past Perfect Passive: had been + причастие."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "By Friday, we ___ (complete) the outline.",
+    "ru": "will have completed",
+    "example": "By Friday, we will have completed the outline.",
+    "tip": "Future Perfect: завершение к указанному моменту будущего."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "She insisted that the outline ___ (be) revised.",
+    "ru": "be",
+    "example": "She insisted that the outline be revised.",
+    "tip": "Сослагательное наклонение после insist: начальная форма be."
+  },
+  {
+    "deck_id": "CL_B2",
+    "en": "Only after reading the outline ___ (we / understand) the problem.",
+    "ru": "did we understand",
+    "example": "Only after reading the outline did we understand the problem.",
+    "tip": "Инверсия после Only: did + подлежащее + начальная форма."
+  }
+]

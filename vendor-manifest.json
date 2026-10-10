@@ -1,0 +1,50 @@
+{
+  "pdfjs-dist": {
+    "version": "6.4.299",
+    "license": "Apache-2.0",
+    "tarball": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-6.4.299.tgz",
+    "integrity": "sha512-AVl138zALtfaAPvADulE0PZThbYzCBS79nL4pOSL/6Sm/4AH5A21BD9VHt97OlCuzJuCpmeZtAtkinisF4Vb1g==",
+    "files": {
+      "pdf.min.mjs": "57456c8e0c81e46be31174b499ef77f2b9f5ee46d04412ba627320a36755d4c2",
+      "pdf.worker.min.mjs": "9536359f1b8367850d485731ca1d5e45c159a7b7a0912325e539937aa21ceb18"
+    }
+  },
+  "mammoth": {
+    "version": "1.13.0",
+    "license": "BSD-2-Clause",
+    "tarball": "https://registry.npmjs.org/mammoth/-/mammoth-1.13.0.tgz",
+    "integrity": "sha512-2cawcYFcP7ISfXbBcL9lmVgTNWo88v/52ND1gnywHtVT/pX0//puPnf0iMPV9ZgmuvNOE+zkIhDgZ9M2c2dDDg==",
+    "files": {
+      "mammoth.browser.min.js": "92914a3708cfdf1e62cb553d1856a7fedab21da83d8ee82845de2f897b368cab"
+    },
+    "scope": "Browser library bundle; CLI argparse/sprintf dependencies are not shipped or installed by this project."
+  },
+  "sql.js": {
+    "version": "1.14.2",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/sql.js/-/sql.js-1.14.2.tgz",
+    "integrity": "sha512-3ZGPovObMFrdw79zrUHbfdE/DLIsy8jdNdssmMSQuRAymedU6q84asPt0kgiqrdMYlPegDItiIMfmIXzZnYFcw==",
+    "files": {
+      "sql-wasm.js": "f1c84000dbc856c9d87f4f3aabc4d3654bd436165db4be3da13751db3a9c20d7",
+      "sql-wasm.wasm": "38c14f6e379210bc942bdc4ebca44e7bfdb4318ecc1c72ca666a28fdce96670a"
+    }
+  },
+  "marked": {
+    "version": "18.1.0",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/marked/-/marked-18.1.0.tgz",
+    "integrity": "sha512-PamYXWWWg2nboG3oX5Ffzpy3EFZROqZJK9hSlMmUnekp7TxPs5DcT95vwd46m73/exfKCRVMtgXoPMI4FEJL6w==",
+    "files": {
+      "marked.min.js": "f424dcb508fdf93e0137a970cfce8f3207ea2e3f37eca5f7556a52875683632a"
+    }
+  },
+  "dompurify": {
+    "version": "3.4.16",
+    "license": "(MPL-2.0 OR Apache-2.0)",
+    "tarball": "https://registry.npmjs.org/dompurify/-/dompurify-3.4.16.tgz",
+    "integrity": "sha512-sqo+pNp3qRhCIpbgRi1y8Tgk27Bo2Ry7w0dC1NBeNTdZChWjz9Xb/KOoZbRP/R6pQZ80Qw8YhXw13hWWBbMRnQ==",
+    "files": {
+      "purify.min.js": "2c90a9b46d6463f26038a29b686e82bc91de01fdac9d5229e7cfe3b360134ea2"
+    }
+  }
+}
