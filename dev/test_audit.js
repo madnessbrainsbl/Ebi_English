@@ -32,6 +32,8 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
   }
   const { page, context, errors } = await open();
   await test('initial content and screens', async () => {
+    assert((await page.title()).startsWith('Ebi_English'));
+    assert.equal(await page.locator('.logo').textContent(), 'Ebi_English');
     assert.equal(await page.evaluate(() => Object.keys(VOCAB).length), 300);
     for (const screen of ['mycards', 'stats', 'freechat', 'home']) {
       await page.evaluate(screen => showScreen(screen), screen);

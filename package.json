@@ -1,5 +1,5 @@
 {
-  "name": "gb-english-cards",
+  "name": "ebi-english",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -13,5 +13,27 @@
   },
   "engines": {
     "node": ">=20"
-  }
+  },
+  "description": "Тренажёр английского: карточки, интервальные повторения, грамматика, чтение документов и разговор с ИИ.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madnessbrainsbl/Ebi_English.git"
+  },
+  "homepage": "https://madnessbrainsbl.github.io/Ebi_English/",
+  "bugs": {
+    "url": "https://github.com/madnessbrainsbl/Ebi_English/issues"
+  },
+  "keywords": [
+    "english-learning",
+    "language-learning",
+    "flashcards",
+    "spaced-repetition",
+    "sm2",
+    "vocabulary",
+    "grammar",
+    "reading",
+    "ai-tutor",
+    "offline-first"
+  ]
 }
