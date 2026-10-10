@@ -14,6 +14,10 @@ Ebi_English — тренажёр английского для русскояз�
 
 **[Открыть приложение](https://madnessbrainsbl.github.io/Ebi_English/)** · **[Скачать ZIP](https://github.com/madnessbrainsbl/Ebi_English/archive/refs/heads/main.zip)** · **[Сообщить о проблеме](https://github.com/madnessbrainsbl/Ebi_English/issues)**
 
+![GIF-обзор Ebi_English: вкладки, упражнения и настройки](docs/images/demo.gif)
+
+GIF показывает все 23 скриншота за 52 секунды и повторяется по кругу. Ниже — настоящие скриншоты приложения, включая авторское название, ненормативную лексику и мобильные экраны.
+
 ![Главная Ebi_English: ежедневная практика, тематические треки и прогресс](docs/images/home.png)
 
 ## Что внутри
@@ -30,7 +34,33 @@ Ebi_English — тренажёр английского для русскояз�
 
 Предложенный ежедневный маршрут: **7 минут повторения, 7 минут чтения, 6 минут разговора**. После скачивания базовые карточки работают локально. ИИ, внешнее аудио и речевые сервисы требуют подключения к Интернету; некоторым нужен собственный ключ.
 
-![Практика слов в Ebi_English](docs/images/practice.png)
+## Скриншоты программы
+
+23 снимка главной, уроков, карточек с ненормативной лексикой, грамматики, чтения, повторения, чата и настроек. Собственная карточка и учебная статистика показаны в отдельном демонстрационном профиле; поля API-ключей пустые.
+
+![Итог сессии с авторской фразой «Охуеть. Почти не тупил.»](docs/images/result.png)
+
+![Карточка с ненормативным переводом](docs/images/profanity.png)
+
+<details>
+<summary>Открыть полную галерею — 23 скриншота</summary>
+
+| Экран | Экран |
+|---|---|
+| **Главная — Грет британ блть**<br>[![Главная — Грет британ блть](docs/images/home.png)](docs/images/home.png) | **Уроки и уровни английского**<br>[![Уроки и уровни английского](docs/images/lessons.png)](docs/images/lessons.png) |
+| **Настройка научных треков**<br>[![Настройка научных треков](docs/images/tracks.png)](docs/images/tracks.png) | **Тактики запоминания**<br>[![Тактики запоминания](docs/images/tactics.png)](docs/images/tactics.png) |
+| **Практика слов**<br>[![Практика слов](docs/images/practice.png)](docs/images/practice.png) | **Проверка ответа и разбор ошибки**<br>[![Проверка ответа и разбор ошибки](docs/images/mistake.png)](docs/images/mistake.png) |
+| **Сопоставление пар**<br>[![Сопоставление пар](docs/images/matching.png)](docs/images/matching.png) | **Грамматика — глагол to be**<br>[![Грамматика — глагол to be](docs/images/grammar.png)](docs/images/grammar.png) |
+| **Словарная карточка с ненормативным переводом**<br>[![Словарная карточка с ненормативным переводом](docs/images/profanity.png)](docs/images/profanity.png) | **Фраза с ненормативной лексикой**<br>[![Фраза с ненормативной лексикой](docs/images/profanity-phrase.png)](docs/images/profanity-phrase.png) |
+| **Результат учебной сессии**<br>[![Результат учебной сессии](docs/images/result.png)](docs/images/result.png) | **Добавление собственной карточки**<br>[![Добавление собственной карточки](docs/images/my-card.png)](docs/images/my-card.png) |
+| **Сохранённые карточки**<br>[![Сохранённые карточки](docs/images/saved-cards.png)](docs/images/saved-cards.png) | **Выбор текста и импорт книг**<br>[![Выбор текста и импорт книг](docs/images/reading-list.png)](docs/images/reading-list.png) |
+| **Чтение встроенного текста**<br>[![Чтение встроенного текста](docs/images/reading.png)](docs/images/reading.png) | **Повторение словаря и ошибки**<br>[![Повторение словаря и ошибки](docs/images/review.png)](docs/images/review.png) |
+| **Повторение грамматики**<br>[![Повторение грамматики](docs/images/grammar-review.png)](docs/images/grammar-review.png) | **Свободный чат**<br>[![Свободный чат](docs/images/chat.png)](docs/images/chat.png) |
+| **Сценарии разговорной практики**<br>[![Сценарии разговорной практики](docs/images/chat-scenarios.png)](docs/images/chat-scenarios.png) | **Настройки Groq без личного ключа**<br>[![Настройки Groq без личного ключа](docs/images/groq.png)](docs/images/groq.png) |
+| **Распознавание речи Groq Whisper**<br>[![Распознавание речи Groq Whisper](docs/images/voice.png)](docs/images/voice.png) | **Главная на телефоне**<br>[![Главная на телефоне](docs/images/mobile-home.png)](docs/images/mobile-home.png) |
+| **Настройки Groq на телефоне**<br>[![Настройки Groq на телефоне](docs/images/mobile-groq.png)](docs/images/mobile-groq.png) |  |
+
+</details>
 
 ## Быстрый запуск
 
